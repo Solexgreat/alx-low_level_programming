@@ -10,13 +10,15 @@
 int main(void)
 {
 	int n;
+	char ch;
 
-	n = 48;
-
-	while (n <= 57)
+	for (n = 48 ; n <= 57 ; n++)
 	{
 		putchar(n);
-		n++;
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
