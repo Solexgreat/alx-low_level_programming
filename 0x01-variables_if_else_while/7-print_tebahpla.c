@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * main - prints the last digit of the random
@@ -8,14 +9,14 @@
  */
 int main(void)
 {
-	int n;
+	char n;
 
-	n = 0;
+	n = 'z';
 
-	while (n < 10)
+	while (n >= 'a')
 	{
 		putchar(n);
-		n++;
+		n--;
 	}
 	putchar('\n');
 	return (0);
