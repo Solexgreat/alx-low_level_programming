@@ -21,7 +21,10 @@ void more_numbers(void)
 			_putchar(c);
 			c++;
 		}
+		_putchar('\n');
+
 		n++;
+
 	}
 	_putchar('\n');
 }
