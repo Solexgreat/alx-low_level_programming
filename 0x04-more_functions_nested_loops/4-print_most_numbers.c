@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_most_numbers- a function that prints the numbers, from 0 t0 9
+ *print_most_numbers- a function that prints the numbers, from 0 t0 9
  *Exepect 2 and 4
  * Return:0
  */
