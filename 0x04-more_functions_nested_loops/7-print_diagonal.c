@@ -16,10 +16,10 @@ void print_diagonal(int n)
 
 	while (i <= n)
 	{
-		if (n > 0)
+		if (i > 0)
 		{
 			c = 0;
-			while (c <= n)
+			while (c <= i)
 			{
 				_putchar(' ');
 				c++;
