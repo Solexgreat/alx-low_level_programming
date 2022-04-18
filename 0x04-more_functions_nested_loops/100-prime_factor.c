@@ -14,8 +14,8 @@ int main(void)
 	for (p = 3; p <= 12057; p += 2)
 	{
 		while (n % p == 0 && n != p)
-			n /= p;	
+			n /= p;
 	}
-	printf(" %lu \n", n);
+	printf("%lu\n", n);
 	return (0);
 }
