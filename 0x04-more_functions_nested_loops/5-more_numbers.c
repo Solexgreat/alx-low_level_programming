@@ -19,7 +19,7 @@ void more_numbers(void)
 		while (c < 15)
 		{
 			if (c >= 10)
-				_putchar((c % 10) + 57 + 49);
+				_putchar((c / 10) + 48);
 			_putchar((c % 10) + 48);
 			c++;
 		}
