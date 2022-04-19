@@ -21,8 +21,8 @@ void more_numbers(void)
 			_putchar(c);
 			c++;
 		}
-		n++;
 		_putchar('\n');
+		n++;
 
 	}
 }
