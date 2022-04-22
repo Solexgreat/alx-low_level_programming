@@ -9,6 +9,7 @@ void print_rev(char *s);
 int _putchar(char c);
 int _atoi(char *s);
 void rev_string(char *s);
+void puts2(char *str);
 
 
 #endif
