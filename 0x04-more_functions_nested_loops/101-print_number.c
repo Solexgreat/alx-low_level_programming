@@ -1,42 +1,35 @@
 #include "main.h"
 
 /**
- * print_triangle- a function that print square
- * size times
- * l represent Lines
- * m repreent marks
- * s represent space
- *@size: Number of size
- * Return:0
+ * print_number - prints an integer.
+ * @n: input integer.
+ * Return: no return.
  */
-
-void print_triangle(int size)
+void print_number(int n)
 {
-	int l;
-	int m;
-	int s;
+	unsigned int m, d, count;
 
-	s = size - 1;
-
-	if (size > 0)
+	if (n < 0)
 	{
-		for (l = 0; l < size; l++)
-		{
-			for (m = 0; m < size; m++)
-			{
-				if (s > m)
-				{
-					_putchar(' ');
-				}
-				else
-					_putchar(35);
-			}
-			s--;
-			_putchar('\n');
-		}
+		_putchar(45);
+		m = n * -1;
 	}
 	else
+	{
+		m = n;
+	}
 
-		_putchar('\n');
+	d = m;
+	count = 1;
 
+	while (d > 9)
+	{
+		d /= 10;
+		count *= 10;
+	}
+
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
