@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - is a function that prints the name.
  *@argc: is an argument counter for char.
