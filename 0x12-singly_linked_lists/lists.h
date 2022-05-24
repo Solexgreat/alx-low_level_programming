@@ -23,7 +23,7 @@ typedef struct list_singly
 
 size_t print_list(const list_t *i);
 size_t list_len(const list_t *i);
-list_t *add_node(list_t **list_head, const char *str);
+list_t *add_node(list_t **list_h, const char *str);
 list_t *add_node_end(list_t **list_head, const char *str);
 void free_list(list_t *list_head);
 
