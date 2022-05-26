@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * listint_len - returns the number of elements in
+ * print_listint - returns the number of elements in
  * a linked list.
  * @h: head of a list.
  * Return: numbers of nodes.
  */
 
-size_t print_listin(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
 	size_t num = 0;
 
