@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[n] >= 65 && b[n] <= 122)
 			return (0);
-		if (b[n] >= '1' && b[n] <= '9')
+		if (b[n] >= '0' && b[n] <= '9')
 		{
 			q = (b[n] - '0') * i;
 			x += q;
